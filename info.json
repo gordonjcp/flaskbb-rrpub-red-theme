@@ -1,0 +1,11 @@
+{
+    "application": "flaskbb",
+    "identifier": "rrpub",
+    "name": "rrpub theme",
+    "author": "Gordon JC Pearce",
+    "website": "https://rangerovers.pub",
+    "license": "BSD License",
+    "description": "Default theme for rangerovers.pub",
+    "version": "0.1.0",
+    "preview": "preview.png"
+}

@@ -1,0 +1,50 @@
+{
+  "name": "flaskbb-theme-rrpub-theme",
+  "description": "Default theme for rangerovers.pub",
+  "version": "0.1.0",
+  "license": "BSD-3-Clause",
+  "author": "Gordon JC Pearce <gordon@gjcp.net>",
+  "url": "https://rangerovers.pub",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your_name/your_theme_repo"
+  },
+  "bugs": "https://github.com/your_name/your_theme_repo/issues",
+  "keywords": [
+    "flaskbb",
+    "theme"
+  ],
+  "scripts": {
+    "clean": "rm -f node_modules",
+    "autoprefixer": "postcss -u autoprefixer -r static/css/*",
+    "scss": "./tools/build_css",
+    "uglify": "./tools/build_js",
+    "imagemin": "imagemin src/img/* -o static/img",
+    "fonts": "./tools/build_fonts",
+    "build:css": "npm run scss && npm run autoprefixer",
+    "build:js": "npm run uglify",
+    "build:images": "npm run imagemin && npm run fonts",
+    "build:all": "npm run build:css && npm run build:js && npm run build:images",
+    "watch:css": "onchange 'src/scss' -- npm run build:css",
+    "watch:js": "onchange 'src/js' -- npm run build:js",
+    "watch:all": "npm-run-all -p watch:css watch:js"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.4.0",
+    "imagemin-cli": "^3.0.0",
+    "node-sass": "^3.8.0",
+    "npm-run-all": "^3.0.0",
+    "onchange": "^2.5.0",
+    "postcss-cli": "^2.5.2",
+    "uglify-js": "^2.7.3"
+  },
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "bootstrap-markdown": "^2.10.0",
+    "font-awesome": "^4.6.3",
+    "jquery-textcomplete": "^1.6.2",
+    "jquery": "^3.1.0",
+    "marked": "^0.3.6"
+  }
+}
