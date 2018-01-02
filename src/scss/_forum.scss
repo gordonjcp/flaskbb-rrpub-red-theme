@@ -30,6 +30,17 @@
             float: left;
             font-size: 1.5em;
             padding-right: 0.5em;
+	    .topic-read,
+	    .topic-unread,
+	    .topic-starred-read,
+	    .topic-starred-unread,
+
+	   
+	    {
+	   	 color: #f00;//$brand-primary;
+	    }   
+		        
+
         }
 
         .topic-name {

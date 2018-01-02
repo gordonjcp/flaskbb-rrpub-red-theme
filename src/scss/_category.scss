@@ -43,6 +43,12 @@
             float: left;
             font-size: 2em;
             padding-right: 0.5em;
+	    .forum-read,
+	    .forum-unread {
+	         color: $brand-primary;
+	    }   
+		        
+
         }
 
         .forum-name {
