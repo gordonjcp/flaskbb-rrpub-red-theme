@@ -16,10 +16,18 @@ $gray-dark:              lighten($gray-base, 20%);   // #333
 // $gray-lighter:           lighten($gray-base, 93.5%) // #eee
 
 // $brand-primary:         darken(#428bca, 6.5%) // #337ab7
+
+
 // $brand-success:         #5cb85c
 // $brand-info:            #5bc0de
 // $brand-warning:         #f0ad4e
 // $brand-danger:          #d9534f
+
+
+$red-base:	#100000;
+$red-dark:	lighten($red-base, 20%);
+
+$brand-primary:		lighten($red-base, 20%);
 
 //== Scaffolding
 //
@@ -30,7 +38,7 @@ $gray-dark:              lighten($gray-base, 20%);   // #333
 // --- or ---
 //$body-bg:               #e8f1f2;
 // --- or ---
-$body-bg:               #F6F9FC;
+$body-bg:               #f6F9FC;
 //** Global text color on `<body>`.
 $text-color:            $gray-dark;
 

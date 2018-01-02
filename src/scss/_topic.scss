@@ -12,6 +12,12 @@
     }
 }
 
+
+.topic-status .fa-comment-o,
+.topic-status .fa-comment {
+	color: $brand-primary;
+}
+
 .post-row {
     background: $author-box-bg;
     margin-top: 0;

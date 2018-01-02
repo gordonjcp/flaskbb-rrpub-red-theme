@@ -10,11 +10,12 @@ $gray: #555;
 
 
 // main colors
-$background-color: #f6f9fc; // old: #e8f1f2
+$background-color: #06f9fc; // old: #e8f1f2
 $font-color: #333;
 $border-color: #cad7e1;
 $head-background: #f5f5f5;
-$meta-background: #eaf1f5;
+//$meta-background: #eaf1f5;
+$meta-background: lighten($red-base, 95%);
 $hover: #f8f8f8;
 
 $navigation-color: #555;

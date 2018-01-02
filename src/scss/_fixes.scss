@@ -3,18 +3,18 @@
     .navbar-btn {
         &>a.btn-primary {
           color: #fff;
-          background-color: #337ab7;
-          border-color: #2e6da4;
+          //background-color: #337ab7;
+          //border-color: #2e6da4;
         }
         &>a.btn-primary:focus {
           color: #fff;
-          background-color: #286090;
-          border-color: #122b40;
+          //background-color: #286090;
+          //border-color: #122b40;
         }
         &>a.btn-primary:hover {
           color: #fff;
-          background-color: #286090;
-          border-color: #204d74;
+          //background-color: #286090;
+          //border-color: #204d74;
         }
     }
 
@@ -49,7 +49,7 @@
         .btn-link, .btn-link:hover, .btn-link:focus {
             color: #fff;
             text-decoration: none;
-            background-color: #337ab7;
+            //background-color: #337ab7;
             outline: 0;
         }
     }
